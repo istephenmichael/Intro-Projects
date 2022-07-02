@@ -2,6 +2,14 @@
 
 ### WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
 
+##project-01-documentation
+
+`sudo apt update`
+
+`sudo apt install apache2`
+
+`sudo systemctl status apache2`
+
 'sudo apt update'
 
 'sudo apt install apache2'
