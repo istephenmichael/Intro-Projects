@@ -2,7 +2,6 @@
 
 ### WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
 
-##project-01-documentation
 
 `sudo apt update`
 ![1](https://user-images.githubusercontent.com/85305109/177019325-9700f349-eb83-499f-85be-c0b14feae116.jpg)
