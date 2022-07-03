@@ -4,7 +4,6 @@
 
 
 `sudo apt update`
-![1](https://user-images.githubusercontent.com/85305109/177019325-9700f349-eb83-499f-85be-c0b14feae116.jpg)
 
 ![2](https://user-images.githubusercontent.com/85305109/177019344-4e23575e-b4f5-4078-88f0-086371286501.jpg)
 
