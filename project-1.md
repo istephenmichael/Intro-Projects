@@ -21,6 +21,6 @@
 
 `sudo systemctl status apache2`
 
-'sudo apt install mysql-server'
+`sudo apt install mysql-server`
 
-'sudo mysql'
+`sudo mysql`
