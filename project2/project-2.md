@@ -1,8 +1,8 @@
 # PROJECT 2 Documentation
 
-### WEB STACK IMPLEMENTATION (LEMP STACK)
+## WEB STACK IMPLEMENTATION (LEMP STACK)
 
-**Step 1**
+### **Step 1**
 
 `sudo apt update`
 
@@ -23,7 +23,7 @@
 ![welcome-nginx](https://user-images.githubusercontent.com/85305109/178084973-3ed228cd-b7bc-4d77-ac92-917266e7a6bf.jpg)
 
 
-**Step 2**
+### **Step 2**
 
 `sudo apt install mysql-server`
 
@@ -33,7 +33,7 @@
 
 ![sudo-mysql](https://user-images.githubusercontent.com/85305109/178085008-4eeed405-d5b8-4e0b-84c3-91953f6f9211.jpg)
 
-**Step 3**
+### **Step 3**
 
 `sudo apt install php-fpm php-mysql`
 
