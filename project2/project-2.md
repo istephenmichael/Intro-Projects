@@ -2,6 +2,8 @@
 
 ### WEB STACK IMPLEMENTATION (LEMP STACK)
 
+**Step 1**
+
 `sudo apt update`
 
 `sudo apt install nginx`
@@ -10,9 +12,13 @@
 
 `curl http://localhost:80`
 
+**Step 2**
+
 `sudo apt install mysql-server`
 
 `sudo mysql`
+
+**Step 3**
 
 `sudo apt install php-fpm php-mysql`
 
