@@ -16,9 +16,9 @@
 
 ![sudo-apt-install-nginx](https://user-images.githubusercontent.com/85305109/178084900-30c84b02-88a4-494b-9f54-9a6369248214.jpg)
 
-`curl http://localhost:80`
-
 ![sudo-apt-install-nginx](https://user-images.githubusercontent.com/85305109/178084900-30c84b02-88a4-494b-9f54-9a6369248214.jpg)
+
+`curl http://localhost:80`
 
 ![welcome-nginx](https://user-images.githubusercontent.com/85305109/178084973-3ed228cd-b7bc-4d77-ac92-917266e7a6bf.jpg)
 
@@ -37,10 +37,10 @@
 
 `sudo apt install php-fpm php-mysql`
 
-`sudo apt install nginx`
+![install-php](https://user-images.githubusercontent.com/85305109/178085220-8cb007fa-6e9c-4c3c-acd4-b6ed2fbfc82b.jpg)
 
-`sudo apt install nginx`
+![php-nginx](https://user-images.githubusercontent.com/85305109/178085255-aa30e75e-b306-464b-9c64-fbb87cf7a62b.jpg)
 
-`sudo apt install nginx`
+![new-php-page](https://user-images.githubusercontent.com/85305109/178085279-c5c76082-9095-4629-994b-4eea78dc19c6.jpg)
 
-`sudo apt install nginx`
+
