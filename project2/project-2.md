@@ -33,14 +33,32 @@
 
 ![sudo-mysql](https://user-images.githubusercontent.com/85305109/178085008-4eeed405-d5b8-4e0b-84c3-91953f6f9211.jpg)
 
+`sudo mysql_secure_installation`
+
+![mysql3](https://user-images.githubusercontent.com/85305109/178085642-352ee8ab-a19c-4b71-9f97-9f46a97809fb.jpg)
+
+`sudo mysql -p`
+
+![new-pw-mysql-login](https://user-images.githubusercontent.com/85305109/178085702-b659ab40-305c-4c63-9121-4c8cb5a17c37.jpg)
+
+
 ### **Step 3**
 
 `sudo apt install php-fpm php-mysql`
 
 ![install-php](https://user-images.githubusercontent.com/85305109/178085220-8cb007fa-6e9c-4c3c-acd4-b6ed2fbfc82b.jpg)
 
+### **Step 4**
+
 ![php-nginx](https://user-images.githubusercontent.com/85305109/178085255-aa30e75e-b306-464b-9c64-fbb87cf7a62b.jpg)
 
+### **Step 5**
+
 ![new-php-page](https://user-images.githubusercontent.com/85305109/178085279-c5c76082-9095-4629-994b-4eea78dc19c6.jpg)
+
+### **Step 6**
+
+![last-sql](https://user-images.githubusercontent.com/85305109/178085940-abd07d59-a59d-4ef3-9bd1-5ff06c103179.jpg)
+
 
 
