@@ -54,6 +54,8 @@ Install ExpressJS
 
 `npm install express`
 
+![A-install-express](https://user-images.githubusercontent.com/85305109/180272619-6a7fd32b-b7f4-40d4-b3b1-e8f7abbde436.jpg)
+
 
 
 Create a file index.js 
@@ -65,6 +67,8 @@ Create a file index.js
 Install the dotenv module
 
 `npm install dotenv`
+
+![B-Install-dotenv](https://user-images.githubusercontent.com/85305109/180272692-5a216bcc-70a6-45bd-a16c-ecf69e3c6e2f.jpg)
 
 
 
