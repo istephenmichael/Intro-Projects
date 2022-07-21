@@ -48,3 +48,27 @@ Application Code Setup
 
 `npm init`
 
+
+
+Install ExpressJS
+
+`npm install express`
+
+
+
+Create a file index.js 
+
+`touch index.js`
+
+
+
+Install the dotenv module
+
+`npm install dotenv`
+
+
+
+Open the index.js file 
+
+`vim index.js`
+
