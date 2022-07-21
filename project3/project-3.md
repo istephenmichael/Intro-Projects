@@ -40,4 +40,11 @@ Verify the npm installation
 ![5-version](https://user-images.githubusercontent.com/85305109/180266422-c8f7de8a-454e-4224-be03-dffc592b520d.jpg)
 
 
+Application Code Setup
+
+`mkdir Todo`
+
+`cd Todo`
+
+`npm init`
 
