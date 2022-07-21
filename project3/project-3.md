@@ -83,6 +83,25 @@ Open the index.js file
 ![7-welcome-express](https://user-images.githubusercontent.com/85305109/180278766-fe2cfcc0-03be-44fe-b982-3ef82aeebc13.jpg)
 
 
+ Create a folder routes
+
+`mkdir routes`
+
+`touch api.js`
+
+
 ![image](https://user-images.githubusercontent.com/85305109/180279933-cdb18fd0-f503-4572-a957-029d6d37c85f.png)
 
+
+MODELS
+
+
+install mongoose in the Todo directory
+
+`npm install mongoose`
+
+![E-Install-mongoose](https://user-images.githubusercontent.com/85305109/180286108-c2f1e6de-bc10-4ba3-910b-177d7c277c3f.jpg)
+
+
+`mkdir models`
 
