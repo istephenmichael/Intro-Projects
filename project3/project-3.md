@@ -76,3 +76,13 @@ Open the index.js file
 
 `vim index.js`
 
+
+![C-Running-port-5000](https://user-images.githubusercontent.com/85305109/180273339-a7ef92d0-e22c-4a4a-a245-5538e799091d.jpg)
+
+
+![7-welcome-express](https://user-images.githubusercontent.com/85305109/180278766-fe2cfcc0-03be-44fe-b982-3ef82aeebc13.jpg)
+
+
+![image](https://user-images.githubusercontent.com/85305109/180279933-cdb18fd0-f503-4572-a957-029d6d37c85f.png)
+
+
