@@ -166,3 +166,16 @@ module.exports = router;
 ```
 
 
+## STEP 2 – FRONTEND CREATION
+
+`npx create-react-app client`
+
+`npm install concurrently --save-dev`
+
+`npm install nodemon --save-dev`
+
+
+
+Install Axios
+
+`npm install axios`
