@@ -1,4 +1,8 @@
-## STEP 1 – BACKEND CONFIGURATION
+# PROJECT 3 - MERN STACK IMPLEMENTATION
+
+## SIMPLE TO-DO APPLICATION ON MERN WEB STACK
+
+### STEP 1 – BACKEND CONFIGURATION
 
 Update ubuntu
 
@@ -105,6 +109,9 @@ install mongoose in the Todo directory
 
 `mkdir models`
 
+`cd models`
+
+Create file in ***models*** folder
 `touch todo.js`
 
 `vim todo.js`
@@ -164,18 +171,59 @@ Todo.findOneAndDelete({"_id": req.params.id})
 module.exports = router;
 
 ```
+Create a MongoDB database and collection inside mLab
 
+Create a file in your Todo directory called ***.env***
+
+`touch .env`
+`vi .env`
+
+Add the connection string to access the database
+
+Update the index.js to reflect the use of .env so that Node.js can connect to the database
+
+Start your server using the command:
+
+`node index.js`
+
+use Postman to test our API
+---
 
 ## STEP 2 – FRONTEND CREATION
 
 `npx create-react-app client`
 
+![10-npx-create-react-app-client](https://user-images.githubusercontent.com/85305109/180625057-2c480f2a-c7dd-4cc8-ac69-e9fe4db8cbd8.jpg)
+
+
+Running a React App
+
+Install concurrently
+
 `npm install concurrently --save-dev`
+
+![11-Install-concurrently](https://user-images.githubusercontent.com/85305109/180625082-a67450cc-6ef4-462a-a630-9ee67a21a01f.jpg)
+
+
+
+Install nodemon
 
 `npm install nodemon --save-dev`
 
+![12-nodemon](https://user-images.githubusercontent.com/85305109/180625101-701f2ff8-f0ab-4bb3-8b58-6ff31c5be31c.jpg)
+
+
+
+Configure Proxy in package.json
+
+`vi package.json`
 
 
 Install Axios
 
 `npm install axios`
+
+
+
+
+
