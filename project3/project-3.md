@@ -189,6 +189,11 @@ Start your server using the command:
 `node index.js` 
 
 use Postman to test our API
+
+![POST](https://user-images.githubusercontent.com/85305109/180627589-7596fee1-6cd1-489a-b587-53c39bf04119.jpg)
+
+![GET](https://user-images.githubusercontent.com/85305109/180627592-e740097f-9b76-4600-96ae-f6c35ac86507.jpg)
+
 ---
 
 ## STEP 2 – FRONTEND CREATION
