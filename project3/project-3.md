@@ -188,6 +188,9 @@ Start your server using the command:
 
 `node index.js` 
 
+![F-DB-connected-successfully](https://user-images.githubusercontent.com/85305109/180627694-0773c6e5-3f25-45fd-b87c-20c367c9a830.jpg)
+
+
 use Postman to test our API
 
 ![POST](https://user-images.githubusercontent.com/85305109/180627589-7596fee1-6cd1-489a-b587-53c39bf04119.jpg)
