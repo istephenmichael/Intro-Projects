@@ -52,6 +52,7 @@ Application Code Setup
 
 `npm init`
 
+![6-app-discpi](https://user-images.githubusercontent.com/85305109/180627463-11ecbd19-c0fe-4ad7-b6db-b1223614a822.jpg)
 
 
 Install ExpressJS
@@ -59,7 +60,6 @@ Install ExpressJS
 `npm install express`
 
 ![A-install-express](https://user-images.githubusercontent.com/85305109/180272619-6a7fd32b-b7f4-40d4-b3b1-e8f7abbde436.jpg)
-
 
 
 Create a file index.js 
@@ -79,6 +79,8 @@ Install the dotenv module
 Open the index.js file 
 
 `vim index.js`
+
+`node index.js`
 
 
 ![C-Running-port-5000](https://user-images.githubusercontent.com/85305109/180273339-a7ef92d0-e22c-4a4a-a245-5538e799091d.jpg)
@@ -171,7 +173,7 @@ Todo.findOneAndDelete({"_id": req.params.id})
 module.exports = router;
 
 ```
-Create a MongoDB database and collection inside mLab
+Create a MongoDB database and collection 
 
 Create a file in your Todo directory called ***.env***
 
@@ -184,7 +186,7 @@ Update the index.js to reflect the use of .env so that Node.js can connect to th
 
 Start your server using the command:
 
-`node index.js`
+`node index.js` 
 
 use Postman to test our API
 ---
@@ -216,14 +218,99 @@ Install nodemon
 
 Configure Proxy in package.json
 
+`cd client`
+
 `vi package.json`
+
+`npm run dev`
+
+![13-Port-3000](https://user-images.githubusercontent.com/85305109/180627275-2d8419ad-1a97-4bf9-aefb-799d5d6f1e80.jpg)
+
+
+![14-REACT-3000](https://user-images.githubusercontent.com/85305109/180627256-db38ce49-4cef-4768-af61-6daa6595bf3a.jpg)
+
+
+Creating your React Components
+
+`cd client`
+
+move to the src directory
+
+`cd src`
+Inside your src folder create another folder called components
+
+`mkdir components`
+Move into the components directory with
+
+`cd components`
+Inside ‘components’ directory create three files Input.js, ListTodo.js and Todo.js.
+
+`touch Input.js ListTodo.js Todo.js`
+
+Open Input.js file
+
+`vi Input.js`
+
+Copy and paste the following code
+
+```
+import React, { Component } from 'react';
+import axios from 'axios';
+
+class Input extends Component {
+
+state = {
+action: ""
+}
+
+addTodo = () => {
+const task = {action: this.state.action}
+
+    if(task.action && task.action.length > 0){
+      axios.post('/api/todos', task)
+        .then(res => {
+          if(res.data){
+            this.props.getTodos();
+            this.setState({action: ""})
+          }
+        })
+        .catch(err => console.log(err))
+    }else {
+      console.log('input field required')
+    }
+
+}
+
+handleChange = (e) => {
+this.setState({
+action: e.target.value
+})
+}
+
+render() {
+let { action } = this.state;
+return (
+<div>
+<input type="text" onChange={this.handleChange} value={action} />
+<button onClick={this.addTodo}>add todo</button>
+</div>
+)
+}
+}
+
+export default Input
+```
 
 
 Install Axios
 
 `npm install axios`
 
+![15-axios](https://user-images.githubusercontent.com/85305109/180626257-b1498552-0fbb-4cf6-a934-8768f0470e65.jpg)
 
 
 
 
+
+
+![END-TO-DO-LIS](https://user-images.githubusercontent.com/85305109/180625716-848dae8e-de23-4b1c-ba4b-fb31c925088a.jpg)
