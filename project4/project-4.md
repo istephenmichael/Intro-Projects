@@ -294,5 +294,18 @@ Cpoy and paste the code below into index.html file.
     </div>
   </body>
 </html>
-
 ```
+
+Change the directory back up to ***'Books'***
+
+`cd ..`
+
+
+Start the server by running this command:
+
+`node server.js`
+
+
+Connect to server via port 3300. 
+
+`curl -s http://localhost:3300`
