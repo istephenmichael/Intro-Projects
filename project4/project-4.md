@@ -64,16 +64,16 @@ Create a folder named ‘Books’
 `mkdir Books && cd Books`
 
 
-In the Books directory, Initialize npm project
+Initialize npm project in the ***Books*** directory, 
 
 `npm init`
 
 
-Add a file to it named server.js
+Add a file to it named ***server.js***
 
 `vi server.js`
 
-Copy and paste the web server code below into the server.js file.
+Copy and paste the web server code below into the ***server.js*** file.
 
 ```
 var express = require('express');
@@ -94,7 +94,7 @@ app.listen(app.get('port'), function() {
 
 `sudo npm install express mongoose`
 
-In ‘Books’ folder, create a folder named apps
+In ***‘Books’*** folder, create a folder named ***apps***
 
 `mkdir apps && cd apps`
 
@@ -156,7 +156,7 @@ Create a file named book.js
 `vi book.js`
 
 
-Copy and paste the code below into ‘book.js’
+Copy and paste the code below into ***‘book.js’***
 
 ```
 var mongoose = require('mongoose');
@@ -177,15 +177,22 @@ module.exports = mongoose.model('Book', bookSchema);
 
 ### Step 4: Access the routes with AngularJS
 
-Change the directory back to ‘Books’
+Change the directory back to ***‘Books’***
 
-cd ../..
+`cd ../..`
+
+
 Create a folder named public
 
-mkdir public && cd public
+`mkdir public && cd public`
+
+
+
 Add a file named script.js
 
-vi script.js
+`vi script.js`
+
+
 Copy and paste the Code below (controller configuration defined) into the script.js file.
 
 ```
