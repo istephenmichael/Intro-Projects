@@ -8,22 +8,37 @@ Update ubuntu
 
 `sudo apt update`
 
+![1](https://user-images.githubusercontent.com/85305109/181521672-fe6940a2-3a90-40ae-847f-0fd7c3df6f7a.jpg)
+
+
 
 Upgrade ubuntu
 
 `sudo apt upgrade`
+
+![2](https://user-images.githubusercontent.com/85305109/181521811-7d07bae7-8274-4901-bac3-da141dfa786b.jpg)
+
 
 
 Add certificates
 
 `sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates`
 
+![3](https://user-images.githubusercontent.com/85305109/181521909-ad5b17f0-0795-4cb0-9471-379204e6adbf.jpg)
+
+
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+
+![4](https://user-images.githubusercontent.com/85305109/181522024-64084e3f-27f1-4ae5-8ffc-99e095b9022a.jpg)
+
 
 
 Install NodeJS
 
 `sudo apt install -y nodejs`
+
+![5](https://user-images.githubusercontent.com/85305109/181522196-14deec1d-efff-41de-a1e0-ddd2ad7562cc.jpg)
+
 
 
 
