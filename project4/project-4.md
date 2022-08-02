@@ -4,6 +4,8 @@
 
 ### Step 1: Install NodeJs
 
+
+
 Update ubuntu
 
 `sudo apt update`
@@ -39,10 +41,14 @@ Install NodeJS
 
 ![5](https://user-images.githubusercontent.com/85305109/181522196-14deec1d-efff-41de-a1e0-ddd2ad7562cc.jpg)
 
+--- 
+
 
 
 
 ### Step 2: Install MongoDB
+
+
 
 `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6`
 
@@ -113,20 +119,29 @@ app.listen(app.get('port'), function() {
 });
 
 ```
+---
 
 
-### Step 3: Install Express and set up routes to the server
+
+
+### Step 3: Install Express and set up ***'routes'*** to the server
+
+
 
 `sudo npm install express mongoose`
+
+
 
 In ***‘Books’*** folder, create a folder named ***apps***
 
 `mkdir apps && cd apps`
 
 
-Create a file named routes.js
+
+Create a file named ***'routes.js'***
 
 `vi routes.js`
+
 
 
 Copy and paste the code below into routes.js
@@ -172,13 +187,17 @@ module.exports = function(app) {
 
 ```
 
-In the ‘apps’ folder, create a folder named models
+
+In the ‘apps’ folder, create a folder named ***'models'***
 
 `mkdir models && cd models`
 
-Create a file named book.js
+
+
+Create a file named ***'book.js'***
 
 `vi book.js`
+
 
 
 Copy and paste the code below into ***‘book.js’***
@@ -199,21 +218,28 @@ var Book = mongoose.model('Book', bookSchema);
 module.exports = mongoose.model('Book', bookSchema);
 
 ```
+---
+
+
+
+
 
 ### Step 4: Access the routes with AngularJS
+
+
 
 Change the directory back to ***‘Books’***
 
 `cd ../..`
 
 
-Create a folder named public
+Create a folder named ***'public'***
 
 `mkdir public && cd public`
 
 
 
-Add a file named script.js
+Add a file named ***'script.js'***
 
 `vi script.js`
 
@@ -261,12 +287,13 @@ app.controller('myCtrl', function($scope, $http) {
 
 ```
 
-In public folder, create a file named index.html;
+In public folder, create a file named ***'index.html'***
 
 `vi index.html`
 
 
-Cpoy and paste the code below into index.html file.
+
+Cpoy and paste the code below into ***'index.html'*** file.
 
 ```
 <!doctype html>
