@@ -8,7 +8,7 @@ Update ubuntu
 
 `sudo apt update`
 
-![1](https://user-images.githubusercontent.com/85305109/181521672-fe6940a2-3a90-40ae-847f-0fd7c3df6f7a.jpg)
+![1](https://user-images.githubusercontent.com/85305109/182267660-dd7f9d44-e8dc-4520-8ec4-3c374330b2ba.jpg)
 
 
 
@@ -16,7 +16,7 @@ Upgrade ubuntu
 
 `sudo apt upgrade`
 
-![2](https://user-images.githubusercontent.com/85305109/181521811-7d07bae7-8274-4901-bac3-da141dfa786b.jpg)
+![2](https://user-images.githubusercontent.com/85305109/182267709-cac5f549-5099-4196-9dce-dd93bad35d0b.jpg)
 
 
 
@@ -48,15 +48,21 @@ Install NodeJS
 
 `echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list`
 
+![step2-1](https://user-images.githubusercontent.com/85305109/182268129-381a04ed-61de-48a8-baad-696d319ba831.jpg)
+
 
 Install MongoDB
 
 `sudo apt install -y mongodb`
 
+![step2-2](https://user-images.githubusercontent.com/85305109/182270179-f2dde214-24cc-4aad-a4c6-94155802da1b.jpg)
+
 
 Start The server
 
 `sudo service mongodb start`
+
+![step2-3](https://user-images.githubusercontent.com/85305109/182270112-d507b9f5-52c7-427a-8d79-c27655da4b42.jpg)
 
 
 Verify that the service is up and running
@@ -73,6 +79,8 @@ Install body-parser package
 
 `sudo npm install body-parser`
 
+![step2-4](https://user-images.githubusercontent.com/85305109/182270288-5d154b39-0359-4aec-a764-53d59036aa66.jpg)
+
 
 Create a folder named ‘Books’
 
@@ -82,6 +90,8 @@ Create a folder named ‘Books’
 Initialize npm project in the ***Books*** directory, 
 
 `npm init`
+
+![step2-5](https://user-images.githubusercontent.com/85305109/182270393-36c37c8c-2dd7-4365-a5fc-7fd0fee694eb.jpg)
 
 
 Add a file to it named ***server.js***
@@ -324,3 +334,8 @@ Start the server by running this command:
 Connect to server via port 3300. 
 
 `curl -s http://localhost:3300`
+
+![webpage-port-3300](https://user-images.githubusercontent.com/85305109/182270660-c056098b-d770-4a34-8037-0b38f9440d1b.jpg)
+
+
+
