@@ -17,24 +17,32 @@
 
 
 
+Create a new entry in ‘Inbound rules’ in ‘mysql server’ Security Groups using TCP port 3306
+
+
+![4-inbound-rules](https://user-images.githubusercontent.com/85305109/187009720-6dc0e5a4-098e-495b-a281-bd2c07d3c93e.jpg)
+
+
+
 `sudo mysql`
 
 
-set a password for the root user, using mysql_native_password as default authentication method. We’re defining this user’s password as PassWord.1.
+Set a password for the root user, using mysql_native_password as default authentication method. We’re defining this user’s password as PassWord.1.
 
-`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';`
 
 `sudo mysql_secure_installation`
 
 `sudo mysql -p`
 
-`sudo mysql -h localhost` (Enter mysql runtime)
+`CREATE USER 'stephen'@'%' IDENTIFIED BY 'wordpass';`
 
-`CREATE USER 'user'@'%' IDENTIFIED BY 'password';`
-
-`GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;`
+`GRANT ALL PRIVILEGES ON *.* TO 'stephen'@'%' WITH GRANT OPTION;`
 
 `FLUSH PRIVILEGES;`
+
+![create-user](https://user-images.githubusercontent.com/85305109/187009912-983e0962-df7e-498f-b430-cb822f816a0a.jpg)
+
 
 ---
 
@@ -59,7 +67,7 @@ set a password for the root user, using mysql_native_password as default authent
 
 
 
-`mysql -h internal-ip-of-server -p` (Connect to mysql server, enter password when prompted.)
+`sudo mysql -u stephen -h 172.31.95.22 -p` (Connect to mysql server, enter password when prompted.)
 
 ![last](https://user-images.githubusercontent.com/85305109/187007673-93850928-ccf8-4db5-ae8a-df2fa16902de.jpg)
 
