@@ -1,10 +1,15 @@
 ### Step 1: Install mysql-server on Linux server and mysql-client on Linux client 
 
+
+
 `sudo apt install mysql-server` (for MySQL server)
+
 `sudo apt install mysql-client` (for MySQL client)
 
 
 ### Step 2: Create new mysql user for client on mysql-server machine and grant privileges
+
+
 
 `sudo mysql`
 
@@ -29,6 +34,8 @@ set a password for the root user, using mysql_native_password as default authent
 ### Step 3: Configure mysql config file on server machine
 
 
+
+
 `sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf` (Change the bind-address from 127.0.0.1 to 0.0.0.0)
 
 `sudo systemctl restart mysql` (Restart mysql service)
@@ -36,5 +43,8 @@ set a password for the root user, using mysql_native_password as default authent
 
 ### Step 4: Connect from client machine
 
-Commands:
+
+
 mysql -h internal-ip-of-server -p (Connect to mysql server, enter password when prompted.)
+
+
