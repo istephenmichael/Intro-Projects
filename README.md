@@ -1,2 +1,2 @@
-# darey.io-pbl
+# Intro Projects
 All my Darey.io PBL projects
