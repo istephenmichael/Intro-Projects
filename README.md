@@ -1,2 +1,2 @@
 # Intro Projects
-All my Darey.io PBL projects
+DevOps projects
